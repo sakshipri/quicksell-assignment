@@ -1,0 +1,42 @@
+.top-header {
+    border: none;
+    padding-bottom: 10px;
+}
+.selectGroup{
+    padding: 3px;
+}
+
+.displayButton{
+    position: relative;
+}
+
+.dropOnClick{
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+}
+
+.dropOnClick > *{
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 2px 5px 2px 5px;
+    border: 0.5px solid #dddde2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.selectStyle{
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}

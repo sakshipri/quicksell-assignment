@@ -1,0 +1,39 @@
+.dashContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border: 0px;
+    flex-wrap: wrap;
+    background: #F4F6FA;
+    padding: 5px 10px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.dashCardContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.dashCardHeading {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px;
+}
+
+.leftView {
+    display: flex;
+    align-items: center; 
+    gap: 5px; 
+}
+
+.rightView {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
